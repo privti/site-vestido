@@ -1,0 +1,22 @@
+/* css de reset */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* agora começa o css verídico*/
+
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#suprema {
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+}
