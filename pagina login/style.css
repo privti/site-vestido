@@ -1,0 +1,28 @@
+
+  html,body{
+    background-color: #044F48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.quadrado {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 1250px;
+    height: 80vh;
+    background-color: white;
+}
+h1{
+    font-size: 66px;
+    position: absolute;
+    top: 0 ;
+}
+
+.login{
+font-size: 32px;
+margin-top:170px ;
+
+}
+
