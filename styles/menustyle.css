@@ -1,0 +1,47 @@
+#menu-icon {
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    z-index: 1100;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+#menu-nav {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background: #000;
+    width: 200px;
+    display: block;
+    transition: 0.3s;
+    z-index: 1200;
+}
+
+#menu-nav.hidden {
+    display: none;
+}
+
+#menu-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu-nav li {
+    border-bottom: 1px solid #222;
+}
+
+#menu-nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+#nayve {
+    font-family: "Inria Serif", serif;
+    color: #ffffff;
+}
