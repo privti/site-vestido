@@ -11,14 +11,10 @@
 #menu-icon:hover {
     transform: rotate(180deg) scale(1.2);
 }
-#menu-icon:hover + #menu-nav,
-#menu-nav:hover {
-    display: block;
-}
 
 #menu-nav {
     position: absolute;
-    top: 100px;
+    top: 50px;
     left: 0;
     background: #000;
     width: 200px;
