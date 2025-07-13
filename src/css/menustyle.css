@@ -2,9 +2,9 @@
     font-size: 2rem;
     color: #fff;
     cursor: pointer;
-    position: absolute;
+    position: relative;
     left: 20px;
-    top: 30px;
+    top: 0px;
     transition: transform 0.3s ease;
 }
 #menu-icon:hover {
@@ -32,11 +32,15 @@
 }
 
 #nayve {
+    color: #fff;
     font-family: "Inria Serif", serif;
-    color: #ffffff;
+    font-size: 2.5rem;
+    flex: 1;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
-menu-nav ul {
+#menu-nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -50,4 +54,5 @@ menu-nav ul {
     color: #ffffff;
     text-decoration: none;
     font-size: 1.2rem;
+
 }

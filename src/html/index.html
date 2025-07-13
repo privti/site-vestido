@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="/src/css/menustyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/css/style_index.css">
+    <link rel="stylesheet" href="/src/css/conteudo.css">
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
 </head>
-<body style="background-color: #044F48;">
+<body style="background-color: #D9D9D9;">
     <div id="suprema">
         
         <header id="cabecalho">
@@ -18,28 +23,50 @@
                     <ul>
                         <li><a href="index.html">Início</a></li>
                         <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="login.html">Login</a></li>
+                        <li><a href="/src/html/login.html">Login</a></li>
                     </ul>
                 </nav>
             <h1 id="nayve">NAYVE</h1>
         </header>
     
-        <main>
+        <main id="tudo">
+            <div class="busca-container">
+            <input type="text" placeholder="Comece sua busca">
+            <span class="glyphicon glyphicon-search"></span>
+        </div>
             <section id="bem-vindo">
                 <h2>Bem-vindo à NAYVE</h2>
                 <p>Explore nossos produtos incríveis e descubra o que temos a oferecer.</p>
             </section>
 
-            <section>
-                <h3>Tendências do Momento</h3>
-                <ul>
-                    <li>Vestido Floral</li>
-                    <li>Sapatos Elegantes</li>
-                    <li>Acessórios Modernos</li>
-                </ul>
-            </section>
-
-            <section>
+                <section id="imagemdesconto">
+                    <img src="/img/Captura de tela 2025-07-13 174007.png" alt="image" srcset="">
+                    <div class="desconto-texto">
+                        <h2>10% OFF</h2>
+                        <button>SHOP NOW</button>
+                    </div>
+                </section>
+            
+          <section class="tendencias">
+            <h2>TENDÊNCIAS DO MOMENTO <span>&#9654;</span></h2>
+            <div class="produtos">
+                <div class="produto">
+                    <img src="/img/camisa1.png" alt="Gray T-Shirt">
+                    <h3>Gray T-Shirt</h3>
+                    <p>Short-sleeve gray t-shirt with a basic style.</p>
+                </div>
+                <div class="produto">
+                    <img src="/img/camisa1.png" alt="Gray T-Shirt">
+                    <h3>Gray T-Shirt</h3>
+                    <p>Short-sleeve gray t-shirt with a basic style.</p>
+                </div>
+                <div class="produto">
+                    <img src="/img/camisa1.png" alt="Gray T-Shirt">
+                    <h3>Gray T-Shirt</h3>
+                    <p>Short-sleeve gray t-shirt with a basic style.</p>
+                </div>
+            </div>
+        </section>
             </main>
             
             
