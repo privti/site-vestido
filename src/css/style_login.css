@@ -1,11 +1,19 @@
+<<<<<<< HEAD:src/css/style_login.css
 html,body{
+=======
+
+  html,body{
+>>>>>>> mayara:pagina login/style.css
     background-color: #044F48;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
+<<<<<<< HEAD:src/css/style_login.css
 
+=======
+>>>>>>> mayara:pagina login/style.css
 .quadrado {
     display: flex;
     justify-content: center;
@@ -14,7 +22,10 @@ html,body{
     height: 80vh;
     background-color: white;
 }
+<<<<<<< HEAD:src/css/style_login.css
 
+=======
+>>>>>>> mayara:pagina login/style.css
 h1{
     font-size: 66px;
     position: absolute;
@@ -27,3 +38,13 @@ margin-top:170px ;
 
 }
 
+<<<<<<< HEAD:src/css/style_login.css
+=======
+form div{
+    margin: 70px 0;
+    font-size: 40px;
+}
+
+
+
+>>>>>>> mayara:pagina login/style.css
