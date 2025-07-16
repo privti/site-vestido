@@ -2,5 +2,39 @@ body{
     background-color: #044F48;
 }
 
+.card {
+  border-radius: 10px;
+}
+.card-body {
+padding: 10rem;
+}
+ .card-title {
+    font-size: 70px;
+    margin-bottom: 65px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+.btn-primary {
+ background-color:#044F48 ;
+ border-color: #044F48;
+}
+ .btn-primary:hover {
+ background-color: #044F48;
+ border-color: #044F48;
+}
 
+.texto{
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.subititulo{
+  font-size: 22px; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-text1{
+font-size: 15px;
+}
+
+.form-text2{
+font-size: 15px;
+}
