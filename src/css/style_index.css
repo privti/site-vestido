@@ -42,9 +42,14 @@ body {
     z-index: 100;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     body {
-        padding-top: 100px; /* Espaço para o cabeçalho fixo */
+        padding-top: 100px; 
     }
+
+    busca-container {
+        width: 10%;
+    }
+    
 
 }
