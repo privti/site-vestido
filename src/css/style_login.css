@@ -1,29 +1,57 @@
-html,body{
+body{
     background-color: #044F48;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
 }
 
-.quadrado {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 1250px;
-    height: 80vh;
-    background-color: white;
+.card {
+  border-radius: 10px;
+}
+.card-body {
+padding: 50px;
+}
+ .card-title {
+    font-size: 400%;
+    margin-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+.btn-primary {
+ background-color:#044F48 ;
+ border-color: #044F48;
+}
+ .btn-primary:hover {
+ background-color: #044F48;
+ border-color: #044F48;
 }
 
-h1{
-    font-size: 66px;
-    position: absolute;
-    top: 0 ;
+.texto{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
-.login{
-font-size: 32px;
-margin-top:170px ;
+.subititulo{
+  font-size: 30px; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-text1{
+font-size: 16px;
+}
 
+.form-text2{
+font-size: 16px;
+}
+.container{
+  padding: 90px;
+}
+
+a{
+  font-size: 14px;
+  color: #044F48;
+  padding: 0px;
+  width: fit-content;
+}
+.a1{
+font-size: 14px;
+color: #044F48;
+width: fit-content;
 }
 
