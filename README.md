@@ -1,4 +1,4 @@
-Especificação técnica e entrega 
+Especificação técnica e entrega. \n
 Design responsivo adaptável a diferentes dispositivos 
 Disposição clara e organizada das seções, como produtos, menus e botões 
 Paleta de cores consistente com cores que reflitam a identidade visual da marca e sejam harmoniosas Fontes legíveis e adequadas para diferentes tamanhos de tela 
