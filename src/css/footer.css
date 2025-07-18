@@ -1,9 +1,8 @@
-
 .rodape {
     background: #54C2AC;
-    position: relative;
     width: 100%;
-    height: 500px;
+    height: 200px;
     padding: 20px;
     display: center;
+    margin-bottom: 0px;
 }
