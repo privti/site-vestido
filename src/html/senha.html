@@ -10,17 +10,16 @@
 </head>
 <body>
  <div class="container">
-    <div class="texto">
-    <h2>Recuperar Senha</h2>
- </div>
- <div class="texto2">
-    <p>Informe seu e-mail para redefinir sua senha:</p>
+   <h2 div class="card-title text-center mb-4">Recuperar Senha</h2>
+   <div class="texto2">
+      <p>Informe seu e-mail para redefinir sua senha:</p>
+      </div>
+      <form action="enviar_email.php" method="POST">
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+        <button type="submit">Enviar link de recuperação</button>
+      </form>
+      
     </div>
-    <form action="enviar_email.php" method="POST">
-      <input type="email" name="email" placeholder="Seu e-mail" required />
-      <button type="submit">Enviar link de recuperação</button>
-    </form>
-    
-  </div>
+ </div>
 </body>
 </html>

@@ -98,12 +98,13 @@
 
 
 #tudo {
+    position: flex;
     margin: 0 auto;
     font-size: 1.2rem;
     padding: 100px 100px;
     background: #044F48;
     text-align: center;
-    height: auto;
+    height: 500%;
     width: 85%;
 }
 
