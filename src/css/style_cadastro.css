@@ -27,13 +27,28 @@ body {
     border-radius: 5%;
 }
 
+#nayve {
+    font-family: "Inria Serif", serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    
+}
+
+#inicio {
+    color: white;
+    text-decoration: none;
+}
+
 h1 {
     text-align: center;
     justify-content: center;
 }
 
-footer {
-    color: white;
-    padding-top: 50%;
+.botao-enviar {
+    background-color: #044F48;
+}
 
-}   
+.btn-primary:hover {
+ background-color: #044F48;
+ border-color: #044F48;
+}
