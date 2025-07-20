@@ -56,3 +56,13 @@
     font-size: 1.2rem;
 
 }
+
+/*
+é isso que usa pra deixar responsivo pra celulares
+falta só usar a classe/id correto
+*/
+@media (min-width:600px) {
+    header {
+        flex-direction: row;
+    }
+} 

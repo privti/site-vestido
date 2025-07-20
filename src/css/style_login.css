@@ -62,3 +62,16 @@ color: #044F48;
 width: fit-content;
 }
 
+#nayve {
+    font-family: "Inria Serif", serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-align: center;
+    justify-content: center;
+}
+
+#inicio {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
