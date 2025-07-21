@@ -69,7 +69,7 @@ width: fit-content;
 
 #nayve {
     font-family: "Inria Serif", serif;
-    font-size: 2.5rem;
+    font-size: 48px;
     letter-spacing: 2px;
     text-align: center;
     justify-content: center;
@@ -78,7 +78,7 @@ width: fit-content;
 #inicio {
     color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 48px;
 }
 
 #cabecalho {
@@ -87,4 +87,8 @@ width: fit-content;
   left: 0;
   right: 0;
   text-align: center;
+}
+
+#imagem-google{
+height: 30px;
 }
