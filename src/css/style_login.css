@@ -1,5 +1,8 @@
 body{
     background-color: #044F48;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
@@ -45,16 +48,10 @@ font-size: 16px;
 font-size: 16px;
 }
 
-.container{
-   background: white;
-    padding: 60px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 450px;
-    height: 480px;
-    margin-top: 110px;
-    align-items: center;
-    margin-left: 750px;
+.container {
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 a{
@@ -76,11 +73,18 @@ width: fit-content;
     letter-spacing: 2px;
     text-align: center;
     justify-content: center;
-    
 }
 
 #inicio {
     color: white;
     text-decoration: none;
     font-size: 30px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
