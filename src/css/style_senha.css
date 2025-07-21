@@ -11,41 +11,56 @@ body{
       padding: 60px;
       border-radius: 20px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      width: 470px;
-      height: 590px;
-      margin-top: 150px;
+      width: 450px;
+      height: 480px;
+      margin-top: 110px;
       align-items: center;
+      margin-left: 750px;
+      
     }
 
     input[type="email"] {
-      width: 80%;
-      padding: 10px;
-      margin-top: 210px;
+      width: 90%;
+      padding: 15px;
+      margin-top: 50px;
       border: 1px solid #ccc;
       border-radius: 5px;
     }
 
     button {
-      margin-top: 15px;
-      padding: 10px 20px;
+      margin-top: 70px;
+      padding: 15px 25px;
       background: #044F48;
       color: white;
       border: none;
       border-radius: 5px;
       cursor: pointer;
+      margin-left:100px;
     }
 
     button:hover {
       background: #044F48;
     }
 h2{
-    font-size:45px;
-    margin-bottom:50px ;
+    font-size:50px;
+    margin-bottom:70px ;
 }
 
 .texto2{
+    font-size: 25px;
+    margin-top: 70px ;
+}
+#nayve {
+    font-family: "Inria Serif", serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-align: center;
+    justify-content: center;
+}
+#inicio {
+    color: white;
+    text-decoration: none;
     font-size: 30px;
-    margin-top: 60px ;
 }
 
 
