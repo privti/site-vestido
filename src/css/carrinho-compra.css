@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #044F48;
+}
+
+
+#nayve {
+    font-family: "Inria Serif", serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#inicio {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.pagamento,
+.resumo {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.pagamento {
+    flex: 2;
+}
+
+.resumo {
+    flex: 1;
+    border: 1px solid #ccc;
+}
+
+h2,
+h3 {
+    color: #333;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formas-pagamento {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.opcao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opcao button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+}
+
+.opcao.selected button {
+    border: 2px solid #0078d4;
+}
+
+.desconto {
+    font-size: 12px;
+    color: red;
+    margin-bottom: 5px;
+}
+
+.compra {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.preco-final {
+    color: green;
+    font-weight: bold;
+}
+
+.subtotal,
+.total {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.cupom input {
+    width: calc(100% - 80px);
+    padding: 5px;
+}
+
+.cupom button {
+    padding: 6px 10px;
+    margin-top: 5px;
+    background-color: #0078d4;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botao-enviar {
+    background-color: #044F48;
+    padding: 10px;
+    border: none;
+    border-radius: 10%;
+}
+
+.btn-primary:hover {
+    background-color: #044F48;
+    border-color: #044F48;
+}
