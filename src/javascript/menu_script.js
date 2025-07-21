@@ -5,6 +5,7 @@ let menu1Icon = document.querySelector('#menu-icon');
 
 
 menu1Icon.addEventListener('click',  () => {
+    console.log('Menu icon clicked');
     if (menuNav.style.display === 'block') {   
         menuNav.style.display = 'none';
         menuNav.style.opacity = '0';
